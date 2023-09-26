@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="mijnDiv">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+
+    </div>
+
+    <!-- 
+            DISPLAY:
+
+        DISPLAY:INLINE
+        is om elementen naast elkaar te zetten, maar ze kijken niet naar de metingen dat ze hebben gekregen. zoals bv height: 100px.
+        als deze code niet gegeven word dan gaat het terug de specifieke metingen geven en weer onder elkaar staan.
+
+        DISPLAY:INLINE-BLOCK:
+            De elementen gaan terug naast elkaar staan zoals inline, maar je kan nu wel de metingen dat je geeft gebuiken en gaat deez niet meer negeren.
+
+        DISPLAY:BLOCK:
+            De elementen gaan gewoon onderelkaar staan.
+
+        DISPLAY:NONE:
+            De elementen gaan precies niet meer bestaan dus niet te zien zijn.
+
+        
+        DE volgende keer gaan we leren of display FLEX en GRID, maar deze zijn wat complexer.
+
+        DISPLAY FLEX:
+            Wordt toegepast in de grote div de "papadiv" in dit vb 'mijnDiv'
+
+            Als je display flex toevoegd gaat alles in die div en de andere div die erin zitten alles naast elkaar zetten.
+            normaal gezien, gaan we flex hiervoor niet gebruiken.
+
+            FLEX-DIRECTION:
+                Het gaat bepalen naar welke richting de elementen gaan.
+            
+                row-reverse -> omgekeerde rij
+
+                column -> in kolom
+                column-reverse -> Omgekeerde kolom
+
+            JUSTIFY-CONTENT:
+                flex-start -> om in het begin te laten starten van de element
+                flex-end -> om op het einde te eindigen zonder het omgekeerde te geven.
+                center -> is om het horizontaal in het midden te zetten. 
+                space-between -> het gaat de elementen zo ver mogelijk elkaar splitsen.
+                space-around -> het gaat plaats geven rond de elementen.
+                space-evenly -> het gaat de plaatsen tussen de elementen even groot maken.
+            
+            ALIGN-ITEMS:
+                Om de alignment van de elementen te manipuleren / kiezen.
+                
+                flex-start -> het verticaal te laten.
+                flex-end
+                center
+
+        DISPLAY GRID:
+            Als je alleen dit gebruikt, dan gaat alles gwn onder elkaar staan.
+
+            grid-template-columns: 1fr 1fr; Is om kolommen te maken, in dit geval twee.
+            Je kan ook ipv 1fr 1fr 1fr -> repeat(3, 1fr) gebruiken, wat betekend dat je 3 keer de 1fr wilt herhalen.
+
+            grid-template-rows: 1fr 1fr; bestaat ook in de row vorm
+
+            column-gap: 10px -> is om een ruimte te geven tussen de kollomen.
+            dit bestaat in dezelfde vorm voor rows.
+
+            rows-gap: 10px
+
+
+
+-->
+    
+</body>
+</html> 

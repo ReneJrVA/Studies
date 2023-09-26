@@ -1,0 +1,48 @@
+Rest en Spread (hulpmiddelen v JS)
+
+Rest:
+    helpt dat we alle argumenten van alle parameters die alles samenvoegt in een array. Wat het makkelijker maakt om te typen.
+
+    function provincies (...provincies){
+    console.log(provincies)
+    }
+
+    provincies ('Antwerpen','West Vlaanderen','Oost Vlaanderen', 'Waalsbrabant')
+
+    ==> de drie puntjes ... in de parameters van de functie te zetten gaat rest de rest doen.
+        Je moet gewoon het alleen een naam geven na de puntjes en dat mag dezelfde naam zijn.
+
+
+        
+
+Spread:
+    helpt dat we alle argumenten van alle parameters die alles samenvoegt in een array. Wat het makkelijker maakt om te typen.
+
+    const hogeAutos = ['tucson','Trafic','Renegade','Model3']
+    const kleineAutos = ['Mini','picanto','smart','twingo']
+
+
+    const autos = [...hogeAutos,...kleineAutos]
+
+    ==> De drie puntjes ... in de array auto zorgt ervoor dat je met spread alle andere arrays samenvoegt in één enkele array.
+        Dus van grote en kleine autos naar autos.
+
+
+    Dit kan je ook met Objecten doen:
+
+        const persoon = {
+            naam: 'René',
+            leeftijd: 26,
+            job: 'developer'
+        }
+
+        const adres = {
+            stad: 'Antwerpen',
+            provincie: 'Antwerp',
+            Land: 'Belgie'
+        }
+
+        const data = {
+            ...persoon,
+            ...adres
+        }

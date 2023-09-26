@@ -1,0 +1,20 @@
+SYNCHROON:
+    =>  Proces dat gebeurd in een volgorde.
+
+
+ASYNCHROON:
+    =>  Proces waar alles tegelijk gebeurd.
+
+
+PROMISES:
+    => Functie constructor
+    => Twee mogelijkheden van resultaat, opgelost of afgewezen.
+
+
+
+THEN EN CATCH:
+
+    => Then wordt uitgevoerd als de promise word opgelost.
+    => Catch wordt uitgevoerd als de promise word afgewezen. 
+
+

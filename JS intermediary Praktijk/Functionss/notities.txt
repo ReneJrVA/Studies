@@ -1,0 +1,23 @@
+Funtions:
+Hier gaan we werken aan de methodes en eigenschappen van functions.
+-> Niet alle methodes, maar toch de meest gebruikte.
+
+-   De functions zijn ook gemaakt in een constructor, daarom heeft hij dezelfde
+    methodes en eigenschappen.
+
+
+Length:
+
+-   naamFunctie.length; => 2 (=> lengte van de parameters)
+
+
+BELANGRIJKSTE METHODES:
+
+-   naamFunctie.call()  => Uitvoerd de functie en geeft een nieuwe waarde aan this.
+                        => Voor je de parameters van de functie geeft, geef je de waarden van this.
+
+-   naamFunctie.apply() => Uitvoerd de functie en geeft een nieuwe waarde aan this
+                        => Nu staan de argumenten in een array staan.
+
+-   naamFunctie.bind()  => Returns de functie en geeft een nieuwe waarde aan this.
+                        => Dit zie je niet in de console tenzij je een nieuwe functie maakt en uitvoerd.

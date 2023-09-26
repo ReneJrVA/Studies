@@ -1,0 +1,29 @@
+Distructuratie is een manier om access te hebben van properties en methodes van een object. Ook voor de items in een array.
+
+
+Distructuratie van objecten:
+
+    const persoon = {
+        naam: 'René',
+        leeftijd: 26,
+        stad: 'Antwerpen'
+    }
+
+    const {stad,naam} = persoon;
+
+    console.log(naam)
+
+    => Zoals je kan zien, door een een Distructuratie te creeren, heb je geen dotnotation nodig in de console log.
+       Je kan gewoon makkelijk oproepen wat je wilt binnen in de class.
+
+
+Distructuratie van Arryas:
+
+    const autos = ['Silvia', 'GTR', 'Civic'];
+
+    const [eersteAuto,tweedeAuto,derdeAuto] =  autos;
+
+    console.log(eersteAuto)
+
+    => Door een Distructuratie te maken, kan je makkelijk de items van de array oproepen. wat het visueel ook makkelijk maakt
+

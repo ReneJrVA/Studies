@@ -1,0 +1,44 @@
+Functies:
+
+    Function declaration:
+
+    De manier dat we tot nu toe hebben gedaan was als volgt:
+        function test(naam){
+            console.log('function declaration', naam)
+        }
+
+        test('Rene');
+
+    Function Expression:
+        -> Deze manier is door eerst een variable te maken en die naam is al de naam van de function.
+        -> Dit heeft dezelfde werking als een function declaration, maar verschillend.
+
+        vb:
+            const test2 = function(naam1){
+                console.log('This is an function expression', naam1)
+            }
+            test2('JR');
+
+            -> dit zijn twee verschillende manieren, om een function te maken.
+            -> Het is ook heel gewoon om een arrow function te gebruiken in een function expression.
+
+        Arrow function:
+            -> een andere manier om anonieme functies te maken.
+
+            vb:
+                const test3 = (naam2) => {
+                    console.log('Arrow Function', naam2)
+                }
+                test3('Van')
+
+            -> het verschil vooral is dat na de variable een naam te geven = () => is gelijkaan, haakjes en een pijltje zetten en de grote haken openen {}.
+
+            -> Er is ook een andere manier om een arrow funtion te maken, maar deze voorbeeld is het meest gebruikte versie. het is gewoon alles op één zelfde lijn te zetten,
+            alsof het een return had.
+                vb: const test3 = naam2 => console.log('Arrow Function', naam2);
+                    test3('Van')
+
+            -> Dus gebruik best de eerste manier. Het is gewoon om aan te tonen dat je deze versie kunt tegenkomen en zo weet wat het is.
+
+
+

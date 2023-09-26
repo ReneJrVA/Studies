@@ -1,0 +1,83 @@
+Constructor Functions:
+    -> zijn functies die nieuwe objecten gaan maken door methods en properties.
+    
+    - Veschil met een factory functie is dat deze een object returned
+    - Een Constructor function -> gaan we een functie gebruiken, om objecten te creeren, maar niet alleen objecten returnen.
+
+    Verschillende personen een waarde geven, DIE NIET WERKT.
+    SLECHT VOORBEELD:
+
+        const persoon = {
+            naam: '',
+            leeftijd: 0
+        }
+
+        const persoon1 = persoon;
+        persoon1.naam = 'Rene';
+        persoon1.leeftijd = 26;
+
+        --> het lijkt dat dit klopt en werkt, maar vanaf je een tweede persoon toevoegd is het spelletje gedaan.
+
+         const persoon = {
+            naam: '',
+            leeftijd: 0
+        }
+
+        const persoon1 = persoon;
+        persoon1.naam = 'Rene';
+        persoon1.leeftijd = 26;
+
+        const persoon2 = persoon;
+        persoon2.naam = 'JR';
+        persoon2.leeftijd = 27;
+
+        --> Vanaf nu gaat elke persoon dezelfde waarden hebben, dus het enigste dat er gebeurt is, is dat de waarden veranderen.
+        --> Dus er worden geen nieuwe objecten gecreerd.
+
+DE JUISTE MANIER:
+    function Persoon(){
+        this.naam = '';
+        this.leeftijd = 0;
+    }
+
+    const Persoon1 = new Persoon();
+    Persoon1.naam = 'Rene';
+    Persoon1.leeftijd = 26;
+
+    const Persoon2 = new Persoon();
+    Persoon2.naam = 'JR';
+    Persoon2.leeftijd = 27;
+
+    --> Nu omdat je this gebruikt in het creeren van het object, gaat het begrijpen dat de waarden alleen voor de persoon is.
+    --> vanaf dat je bij het maken van persoon1 en persoon2, het woord 'new' gebruikt. weet het dat je een nieuwe object wilt maken.
+    --> Dus er zijn nieuwe objecten gecreerd en niet gewoon waarden die veranderd worden.
+    --> als je in de console log gaat zoeken naar elk persoon ga je zien dat ieder een andere waarde heeft. Wat betekend dat elke persoon een eigen nieuwe object is.
+
+    Wat je ook kan doen is al een parameter in eerste function kunt zetten om het wat korter te maken:
+
+    function Persoon(naam){
+        this.naam = naam;
+        this.leeftijd = 0;
+    }
+
+    const Persoon1 = new Persoon('Rene');
+    Persoon1.leeftijd = 26;
+
+    const Persoon2 = new Persoon('JR');
+    Persoon2.leeftijd = 27;
+
+    --> Zoals je kan zien geef je al een waarde in maken van een Constructor function. Waardoor je niet meer een extra lijn moet typen om de naam te bepalen.
+    --> Als je in de console log gaat kijken heb je exact dezelfde uitkomst.
+
+    --> Je kan als je wilt alle parameters er al in zetten wat het nog korter maakt.
+
+    function Persoon(naam,leeftijd){
+        this.naam = naam;
+        this.leeftijd = leeftijd;
+    }
+
+    const Persoon1 = new Persoon('Rene',26);
+    const Persoon2 = new Persoon('JR',27);
+
+    Zoals je kan zien is dit erg kort, dit werkt helemaal hetzelfde als de eerste manier.
+

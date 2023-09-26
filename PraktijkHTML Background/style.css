@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+    
+}
+
+
+.mijnDiv {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(77, 148, 255, 0.8)
+    ;
+}

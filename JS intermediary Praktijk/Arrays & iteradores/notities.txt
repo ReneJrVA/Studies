@@ -1,0 +1,24 @@
+Methodes van Arrays:
+    Een loop van interacties dat gebeuren voor elke item van de array.
+
+
+forEach         =>  Loop blijft lopen dat elke item is geweest.
+
+map             =>  Lijkt hard op forEach, het enigste verschil is dat dit wel een return heeft.
+
+reduce          =>  Werkt zoals map, maar er is een parameter extra in de callback -> accumulator
+                    Zo kan je bv een boodschappen laten optellen en een return krijgen van het totaal.
+
+find            =>  Gaat pas iets return geven vanaf er een interactie true is.
+                    In dit geval is het een string dus het gaat true zijn een returnen.
+
+findIndex       =>  Verschil met find is dat het geen return heeft.
+
+some            =>  Return gaat steeds boolean zijn. Er moet teminste één true zijn zodat het een true
+                    kan returnen. Pas als er geen true te vinden is => return false.
+
+every           =>  Return steeds boolean zoals some, maar voor every moet alle items true zijn
+                    om een return true te krijgen.
+
+filter          =>  Kijkt of de item die je wilt vergelijken in de array zit en deze in een nieuwe array
+                    plaatsen.

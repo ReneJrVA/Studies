@@ -1,0 +1,41 @@
+METHODES VAN NUMMERS:
+
+-   Number.parseFloat()     => Returns een nummer vanuit een string.
+
+-   Number.parseInt()       => Returns een nummer vanuit een string, waar we een decimale nummer plaatsen.
+
+-   .toFixed()              => De nummer wordt afgerond met de decimale basis
+
+-   .toString()             => Returns een string vanuit een nummer.
+
+
+METHODES VAN WISKUNDE:
+
+-   Math.abs()      => Returns een absolute waarde. -> -5 dan 5
+
+-   Math.ceil()     => Rond de waarde af naar boven.
+
+-   Math.floor()    => Rond de waarde af naar beneden.
+
+-   Math.round()    => Rond de waarde af naar de cijfer die het dichtst is.
+
+-   Math.random()   => Returns een willekeurige nummer tussen 0 en 1.
+
+-   Math.max()      => Returns de grootste nummer die in de lijst staat.
+
+-   Math.min()      => Returns de kleinste nummer die in de lijst staat.
+
+
+METHODES VAN DE DATUM:
+
+.getDate        => Welke dag het vandaag is.
+
+.getMonth()     => Welke maand het is.
+
+.getFullYear()  => Welk jaar het is.
+
+.getHours()     => Welk uur het is.
+
+.getMinutes()   => De minuten.
+
+.getDay()       => Dag van de week in engels.

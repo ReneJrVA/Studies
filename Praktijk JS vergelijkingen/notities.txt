@@ -1,0 +1,13 @@
+Vergelijkingen in js:
+    Geeft een boolean antwoord
+    Er word gekeken of de vergelijking klopt of niet klopt.
+
+    Soorten:
+        <           -> kleiner dan
+        >           -> groter dan
+        <=          -> kleiner dan of is gelijk aan
+        >=          -> groter dan of is gelijk aan
+        ==          -> Is gelijk aan, twee ==
+        !=          -> verschillend dan
+        ===         -> Identiteit hetzelfde? Type data dat word gebruikt. bv num1 = 6; num2 = '6'; dit geeft false omdat het niet dezelfde types zijn ookal zijn het allebei cijfers.
+        !==         -> heeft verschillende Identiteit?

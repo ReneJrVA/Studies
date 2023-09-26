@@ -1,0 +1,11 @@
+Ternaire Operatoren:
+    Is om condities na te gaan of ze true of false zijn en dan aan de hand van die waarde iets uitvoeren (return).
+
+        vb:
+        console.log(true ? 'Return true' : 'Return false');
+
+        -> eerste stuk is de vraag of de conditie true is.
+        -> Als deze true is dan gaat het de eerste deel uitvoeren.
+        -> Als het false zou zijn zou het naar de tweede deel gaan en deze uitvoeren (na de duppelpunt).
+
+    Het is goed om dit te gebruiken om iets te doen als de value true of false is.

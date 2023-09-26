@@ -1,0 +1,56 @@
+Array:
+    -> Lijst met waarden
+    -> Je kan kiezen welke waaden: strings, cijfers, boolean, objecten, null, etc.
+    -> elke item heeft een plaats dat index heet.
+
+
+    twee types: vetor en matriz
+
+    VETOR:
+    is een simpele lijst.
+    -> const array = ['Rene', 'Leth', 'Andressa'];
+    -> een array met 3 waarden, dat elks een naam geeft.
+
+    MATRIZ:
+    is zijn veschillende lijsten in een array.
+
+    -> vb:
+        const matriz = [
+    ['honda', 'toyota', 'hyundai'],
+    ['Paulo', 'Rene', 'Leth'],
+    ['ingenieur', 'developer', 'zorgkundige']
+]
+
+    -> hier zie dus een array met een lijst van automerken, namen en jobs.
+
+
+    Index:
+        Die begint in een array met het cijfer 0;
+        -> het eerste item van je lijst is index 0;
+
+        Vetor vb:
+
+            const array = ['Rene', 'Leth', 'Andressa'];
+
+            console.log(array[0]);
+
+            -> in console geeft:
+                Rene
+        
+        -> zo zie je dat de eerste getal van een array 0 is.
+        -> voor de andere items moet je gewoon verder tellen -> console.log(array[1]); -> Leth
+        enz.
+
+        Matriz vb:
+            const matriz = [
+                ['honda', 'toyota', 'hyundai'],
+                ['Paulo', 'Rene', 'Leth'],
+                ['ingenieur', 'developer', 'zorgkundige']
+            ]
+
+            console.log(matriz[0]);
+
+            -> console geeft:
+            'honda', 'toyota', 'hyundai'
+
+            als het 1 was dan was het de volgende lijst. enz.

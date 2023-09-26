@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+
+}
+
+.input {
+    border: 1px solid black;
+}
+
+
+.input:disabled {
+    border: 1px solid red;
+}
+
+.input::before{
+    content: '→';
+}

@@ -1,0 +1,22 @@
+Arrays
+    
+    We gaan het hebben over verschillende functies/tools je kunt gebruiken bij arrays:
+
+    - .lenght           =   om te weten hoeveel items je hebt in je array.
+    - .unshift('')      =   om een nieuwe item aan het begin van je array toe te voegen.
+    - .shift()          =   om de eerste item van de array te verwijderen.
+    - .push('')         =   om een nieuwe item aan het einde van je array toe te voegen.
+    - Array.pop()       =   om de laatste item van de array te verwijderen.
+    - Array.from()      =   om een array like te veranderen naar een echte array.
+    - .isArray()        =   om na te kijken of je array echt een array is -> boolean antwoord: tue or false.
+    - .join()           =   om een array te tonen in een string. Het gebruikt kommas om ze te splitsen. Je kan tussen haakjes naast join een eigen character kiezen.
+    - .concat()         =   om twee of meer arrays samen te voegen naar één array.
+    - Array.of()        =   om een nieuwe array te maken met de items die je tussen haakjes toevoegd.
+    - new Array()       =   om een nieuwe array te maken met de items die je tussen haakjes toevoegd.
+    - Array()           =   Makkelijker; om een nieuwe array te maken met de items die je tussen haakjes toevoegd.
+    - .includes()       =   om na te kijken of een item in de haakjes in de array te vinden is -> boolean antwoord: true or false.
+    - .sort()           =   om een array te sorteren op volgorde. => met nummers. (Gaat ook met strings maar leren we later).
+    - .reverse()        =   om de array te inverteren. Dus het wordt achterstevoren gezet.
+    - .indexOf()        =   om de index van de array aan te geven van de item die je tussen haakjes zet.
+    - .lastIndexOf()    =   om de index van de laatste item aan te geven, die meerdere keren in een array voorkomt.
+                            bv in een array komt 3 keer golf voor. Dan wordt index van de laatste golf aangetoond.

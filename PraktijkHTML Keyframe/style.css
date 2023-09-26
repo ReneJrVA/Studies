@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+
+.mijnDiv {
+
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    animation: animatie;
+    animation-duration: 5s;
+    position: absolute;
+}
+
+@keyframes animatie {
+    0% {
+        top: 0;
+    }
+
+    10% {
+        top: 20px;
+    }
+
+    20% {
+        top: 40px;
+    }
+
+    40% {
+        top: 40px;
+        left: 20px;
+    }
+
+    50% {
+        top: 60px;
+        left: 40px;
+    }
+
+    100% {
+        top: 140px;
+        left: 120px;
+    }
+}

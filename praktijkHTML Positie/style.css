@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+    
+}
+
+
+.mijnDiv {
+    background-color: green;
+    height: 500px;
+    width: 500px;
+  
+    
+}
+.mijnDiv2 {
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.absolute {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+}

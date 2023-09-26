@@ -1,0 +1,27 @@
+Prototypes:
+    -> Is direct gelinkt met functions.
+    -> het is een manier om een object te maken voor de functie die je oproept.
+
+    vb:
+        function Game(){
+            this.jump = () => alert ('De personage sprong');
+            this.crouch = () => alert ('De personage bukt.');
+        }
+
+        Game.prototype.loopt = () => alert ('De personage loopt');
+
+        const newGame = new Game();
+
+        console.log(newGame);
+
+        Als je de een bepaalde functie oproept dan gaat het de alert van die functie uitvoeren. Ook in die in de prototype staat.
+
+    
+    Je kan ook gewoon heel veel mothods en functies gebruiken die al gebruikts klaar zijn.
+    bv:
+        const mijnGame = 'fifa'
+
+        console.log(mijnGame.toUpperCase());
+
+        --> FIFA
+        -> omdat je de functie gebruikt toUpperCase gaat mijnGame automatisch zelf in hoofdletters gezet worden.

@@ -1,0 +1,89 @@
+LOOPS:
+    -> is om bepaalde code te herhalen voor een bepaalde periode dat je aangeeft.
+
+forloop:
+    for (let num1 = 0; num1 < 5; num1++){                   --> tussen de haakjes zet je de conditie voor hoelang je wilt dat je forloop loopt.
+                                                            --> num1 heeft een waarde van 0 en die forloop blijft gaan tot hij 5 is.
+                                                            --> daarom is het belangrijk om niet te vergeten om num1, te incrementeren na elke loop. +1 dus.
+
+        console.log(`Herhaling van nummer ${num1}`)         --> is om te kunnen zien in de console hoeveel keer het is uitgevoerd.
+    
+    }
+
+
+    Je kan ook een break en een if statement erin gebruiken.
+    vb:
+
+        for (let num1 = 0; num1 < 100; num1++) {
+            console.log(num1);
+
+            if (num1 == 50) {
+            break
+            }
+        }
+
+        -> de forloop blijft lopen tot num1 99 is. maar door de if statement staat er dat als num1 gelijk aan 50 is.
+        -> om dan te stoppen door de break.
+        -> console: gaat de nummer printen tot 50.
+
+
+for in:
+    is voor alle items in een functie te gebruiken bv. dus 3 items, 3 Herhalingen.
+
+    vb:
+    const object = {
+            name: 'Rene',
+            age: 22,
+            city: 'Antwerp'
+    }
+
+    for (key in object) {
+        console.log(key);
+    }
+
+    console: Rene
+             22
+             Antwerp
+
+    -> de loop loopt voor elke item in de functie.
+    -> je kan ook in de console log gebruiken: console.log(object[key]);
+
+
+For Of:
+    lijkt op een for in, het verschil is dat een for of wordt gebruikt voor een array.
+
+    vb:
+     const array = ['hb20','corola','miata']
+
+    for(item of array){
+        console.log(item)
+    }
+
+    console:    hb20
+                corola
+                miata
+
+WHILE:
+    lijkt erg op een for, het verschil is dat het anders geformuleerd word.
+
+    let num2 = 0;
+
+    while(num2 < 5 ){
+        console.log(num2);
+        num2++
+    }
+
+    console:    0
+                1
+                2
+                3
+                4
+                5
+
+    Het werkt helemaal hetzelfde als een forloop, maar dit is gewoon anders geformuleerd.
+
+
+
+    
+
+

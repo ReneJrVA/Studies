@@ -1,0 +1,71 @@
+Type data
+    String 
+        -> een blok tekst/karakters tussen haakjes
+        bv const onzeString = 'dit is een string';
+
+        Je kan dubelle haakjes gebruiken of enkele "" ''
+
+        als je bv 2 strings samen wilt zetten met een spatie tussen kan je dit doen:
+            const onzeString = 'René is een';
+            const andereString = "developer";
+
+            console.log(onzeString+' '+andereString);   
+            --> René is een developer
+
+        je kan ofwel spatie voor " developer" zetten, na 'René is een ' of zoals in vb in de console log print alleen de spatie bijzetten.
+
+    Je kan ook een string template gebruiken
+    -> `je hebt een string ${naamstring}`
+    waardoor het aan elkaar komt te staan en de spatie al erbij neemt.
+
+
+    Number:
+        -> gewoon nummers
+
+    je kan met de console.log ook controleren welk soort type data je gebruikt.
+    -> console.log(typeof naam van data);
+    -> print type data bv number
+
+    Met e achter de nummer en een nummer erachter is om te zeggen hoeveel nullen je achter je cijfer wilt doen.
+    bv 3e10 -> 30000000000 -> 3 + 10 nullen erachter
+
+    Je kan met de console log ook kijken wat je data is bv:
+        const number = 3;
+
+        console.log(typeof number, number);
+        -> number 30000000000
+
+
+    Null:
+        -> betekent nul - niks. maar bestaat wel, het heeft gewoon nog niet echt een waarde.
+          const prijsVanAankoop = null;
+
+          console.log(prijsVanAankoop);
+          ->object
+        
+        Dus dit wil zeggen dat het bestaat want het weet dat er een object is.
+
+    Undefined:
+        -> Is niks, niet gedefinieerd -> bestaat niet.
+        vb:
+            let waarde;
+
+            console.log(typeof waarde);
+            -> Undefined
+
+    Boolean:
+        Bestaat uit true or false
+        -> om te weten bv als dit false of true is dan ga ik een code uitvoeren.
+
+        Manieren om FALSE te geven:
+            - false
+            - 0 -> false
+            - Nan (not a number) -> false
+            - null -> false
+            - Undefined -> false
+            - Sting zonder karakter bv ''; -> opassen voor spatie, want anders wordt het true!
+
+        Manieren om TRUE te krijgen:
+            - String met 1 spatie/karakter of meer. ' '
+            - true
+            - nummer dat geen 0 is. ook voor negatieve getallen, 10 , -20 -> true

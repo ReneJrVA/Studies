@@ -1,0 +1,18 @@
+OBJECTEN:
+    We gaan een aantal methodes en eigenschappen zien van objecten.
+
+
+
+BELANGRIJKSTE MEDTHODES:
+
+-   Object.assign()     => is om alle methodes en argumenten in een object naar
+                           een andere object te zetten.
+                        => tussen haakjes zet je de eerste object, dan een komma en de andere object
+                           waar je de parameters wilt van nemen. zie script.
+                        => Je kan ook rest gebruiken om de code cleaner te maken zie script.
+
+-   Object.keys()       => Returns alle keys van de objecten.
+                           -> dit kan je in een console.log plaatsen om dit te zien.
+
+-   Object.values()     => Returns alle waarden van de objecten.
+                           -> dit kan je ook plaatsen in de console.log

@@ -1,0 +1,24 @@
+Classes is een andere manier om constructor functies schrijven.
+
+-> class Naam van klas(pascalcase) {
+    constructor(){
+
+    }
+}
+
+zo maak je een class:
+    -> class
+    -> naam van de klas = pascalcase
+    -> de main methode in de class is een constructor
+    -> Er zijn geen parameters dat je tussen haakjes doet zoals in een functies
+
+ALs je een static zet voor een method, dan kan de methode niet meer door de rest buiten de class gezien worden.
+
+-> Je kan een andere class informatie van een ander class erbij halen door extends naam vd class naast de class te zetten.
+bv:
+
+class Persoon extends Zoogdier {
+
+}
+
+-> Je kan dezelfde methodes hebben in andere klassen, maar best super voor één zetten, zodat je een onderschijt kunt maken.

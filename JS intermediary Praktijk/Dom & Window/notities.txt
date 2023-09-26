@@ -1,0 +1,12 @@
+DOM:
+Document Object Model
+
+    => structuur dat de documenten van html en xml bijhoud.
+    
+    
+
+
+
+
+
+WINDOW:

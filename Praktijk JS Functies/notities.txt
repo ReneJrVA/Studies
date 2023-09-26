@@ -1,0 +1,90 @@
+Functies:
+    openen van een functie:
+    Function naam(){
+    }
+
+    -> is een blok met code die uitgevoerd gaat worden.
+    -> op deze manier gaat de code ook niet uitgevoerd worden.
+    -> Word uitgevoerd als je de funtie OPROEPT.
+
+    Als je de naam van de functie oproept dan werkt het.
+    vb:
+
+        function mijnFunctie(){
+            console.log("functie is uitgevoerd.");
+        }
+
+        mijnFunctie(); -> dit is de manier om een functie op te roepen.
+
+    -> Dit is handig om de code alleen uit te voeren wanneer je het echt nodig hebt en niet altijd non-stop.
+        vb: een welkom bericht tonen, wanneer je inlogt. en niet bij elke pagina dat je opent op de site.
+
+    
+    Je kan bv kiezen om je functie 3 keer te laten uitvoeren, maar elk een verschillend bericht tonen.
+    vb:
+        function mijnFunctie(message){
+             console.log(message);
+        }
+
+        mijnFunctie('Eerste bericht');
+        mijnFunctie('tweede bericht');
+        mijnFunctie('derde bericht');
+
+        ->
+        Eerste bericht
+        tweede bericht
+        derde bericht
+
+    Je hebt mijnFunctie een parameter gegeven waardoor je kan kiezen hoeveel keer je de functie kunt laten uitvoeren.
+    Je kan ook verschillende parameters toevoegen aan een functie, waardoor je meer mogelijkheden hebt.
+    -> Het is gewoon belangrijk dat als je de functie oproept, dat je de parameters op de juiste volgorde zet.
+
+    vb:
+        function mijnFunctie(message, userName){
+            console.log(message, userName);
+        }
+
+        mijnFunctie('Eerste bericht', 'René');
+        mijnFunctie('tweede bericht', 'Lethicia');
+        mijnFunctie('derde bericht', 'Lucas');
+
+        ->
+        Eerste bericht René
+        tweede bericht Lethicia
+        derde bericht Lucas
+
+    Return:
+        -> Om te weten, of je functie correct werkt bv.
+        -> op een einde van een functie is het belangrijk dat je iets terug stuurt.
+        -> wat je na de return zet in de functie, gaat niet werken. Omdat het al gereturned is.
+
+        vb:
+            function mijnFunctie(message, userName){
+                console.log(message, userName);
+                alert('alert')
+                return 'funtie uitgevoerd.'
+                alert('werkt niet.') -> deze lijn gaat niet uitgevoerd worden.
+            }
+
+                mijnFunctie('Eerste bericht', 'René');
+                mijnFunctie('tweede bericht', 'Lethicia');
+                mijnFunctie('derde bericht', 'Lucas');
+
+                ->
+                Eerste bericht René
+                Alert
+                tweede bericht Lethicia
+                Alert
+                derde bericht Lucas
+                Alert
+
+                -> Alert('werkt niet') wordt niet uitgevoerd, dus niet te zien.
+
+        
+        Template Strings kan ook gebruikt worden met een return:
+                function mijnFunctie(message, userName){
+                    console.log(userName);
+                    return `${userName} is een developer.`
+                }
+
+                mijnFunctie('René');

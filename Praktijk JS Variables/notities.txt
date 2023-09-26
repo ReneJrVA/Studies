@@ -1,0 +1,23 @@
+Variables
+    = om value op te slaan.
+    3 soorten : var, let, const
+
+    -> var en let kan je een value geven en later die value toch laten veranderen.
+    -> const kan je een value geven, maar later niet veranderen. Deze is constant.
+
+    -> De laatste tijd word let meer gebruikt dan var, dus deze ga je wss minder zien.
+
+
+    De naam van een varible mag 
+            - nooit met een nummer beginnen.
+            - met _ of $ beginnen, andere symbolen niet.
+
+    De naam met de regel camelCase gebruiken -> hoofdletter na elk toegevoegd woord aan de naam.
+    bv: mooieDag, kleineDoos, rodeAuto
+
+    Het is ook case sensitive
+        -> ookal heb je de twee dezelfde namen voor een varible,
+        maar is er één met een hoofdletter en één zonder dan gaat het apart worden geinterpreteerd.
+        bv:
+            let randomZin = 'dit';
+            let randomzin = 'dit 2';

@@ -1,0 +1,9 @@
+MODULES:
+    => is een andere js document openen, om zo aparte codes te maken.
+
+    dmv export en import.
+
+    => in de html file, moet je de type van de module zetten.
+    => dit gaat belagrijk zijn wanneer we react gebruiken.
+
+    - Als je gewoon maar 1 ding wilt exporten dan kan export default gebruiken.

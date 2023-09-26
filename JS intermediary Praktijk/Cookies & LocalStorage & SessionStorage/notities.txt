@@ -1,0 +1,25 @@
+COOKIES:
+
+A cookie is a small piece of data that is stored on the user's computer.
+Cookies are used to store information about the user such as their name, password, and preferences.
+
+Cookies are created using the document.cookie property. This property is used to set, get,
+and delete cookies.
+
+
+
+LOCALSTORAGE:
+    => blijft opgeslagen voor een beperkte tijd.
+
+Local Storage is a type of web storage that allows JavaScript to store and access data right in the browser.
+This is especially useful for storing data that you want to persist even if the user closes the browser,
+such as preferences or settings.
+
+
+
+SESSIONSTORAGE:
+    => Wordt verwijderd na de sessie van de site. Bv bij sluiten van tabblad.
+
+Session Storage is a type of web storage that allows web applications to store data locally within 
+the user's browser. Unlike cookies, data stored in session storage is specific to the site on which it was
+created and data is not shared with other sites.

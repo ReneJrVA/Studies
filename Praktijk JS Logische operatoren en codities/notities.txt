@@ -1,0 +1,125 @@
+Logische operatoren en condities:
+    if statement:
+            Is een vragen of de conditie/statement true is en als dat zo is, dan de code uitvoeren.
+            vb:
+
+            if (true){
+                console.log('Hier')
+            }
+
+            -> dit word uitgevoerd omdat er gewoon al true staat.
+            -> je kan bv zetten if (6>2){} ->> dan geeft het true omdat 6 groter is dan 2. dus word uitgevoerd.
+            -> Als het andersom zou zijn if (6<2){} ->> nu zou het false zijn dus word de code in de if statement niet uitgevoerd.
+
+        
+            De if statement kan gebruikt worden als de gebruiker een ja/nee vraag word gesteld.
+            Als je ja krijgt dat een bepaalde code word uitgevoerd en bij nee, een andere code.
+
+
+            In de if statement word vaak gebruik gemaakt van logische operatoren zoals; and, or, not ...
+            
+
+    Logische operatoren:
+        worden gebruikt in if statements:
+
+        -> &&       And
+        -> ||       Or
+        -> !        Not
+
+
+        && vb:
+                const leeftijd = 30;
+                const type = 'admin';
+                    if (leeftijd > 29 && type == 'admin') {
+
+                    console.log('Hij is ouder dan 29 jaar en is een admin.');
+                    }
+
+                    -> console log: Hij is ouder dan 29 jaar en is een admin.
+                    -> de code is uitgevoerd omdat de twee delen true waren.
+                    -> Als één van de twee niet true was ging het niet uitgevoerd worden.
+
+        
+        || vb:
+                const leeftijd = 30;
+                const type = 'admin';
+                    if (leeftijd > 29 || type == 'admin') {
+
+                    console.log('Hij is ouder dan 29 jaar en is een admin.');
+                    }
+
+                    -> console log: Hij is ouder dan 29 jaar en is een admin.
+                    -> de code is uitgevoerd omdat één van de twee delen klopt.
+                    -> Pas als de twee delen false zijn dan ging het niet uitgevoerd worden.
+
+        ! vb:
+                const leeftijd = 29;
+                const type = 'admin';
+                    if (!(leeftijd > 29) && type == 'admin') {
+
+                    console.log('Hij is ouder dan 29 jaar en is een admin.');
+                    }
+
+                    -> console log: Hij is ouder dan 29 jaar en is een admin.
+                    -> de code is uitgevoerd omdat het eerste deel van de statement in het tegengestelde waarde is gezet (not).
+                    -> true && true dus code is uitgevoerd.
+
+    Else if:
+        -> Word gebruikt als de if statement ervoor niet is uitgevoerd, dan met de else if, word de volgende nagekeken en uitgevoerd als het true is.
+        -> Je kan meerdere else if hebben, dat is zeker normaal. Dit is veel beter dan meerdere if statements te gebruiken onder elkaar.
+
+        vb:
+        const leeftijd = 30;
+        const type = 'admin';
+
+        if (leeftijd > 29 && type == 'admin') {
+            console.log('Hij is ouder dan 29 jaar en is een admin.');
+        } else if (leeftijd > 25) {
+            console.log('Hij is ouder dan 25 jaar en is een admin.');
+        }
+
+            -> na de if statement word het al uitgevoerd, omdat deze true is.
+            -> als de leeftijd bv 26 was, dan zou het de else if hebben uitgevoerd. Omdat dan de if statement false zou zijn, maar de else if true.
+            
+    Else:
+        -> word gebuikt als alle if/else if statements niet uitgevoerd worden. Dan else word dan als aller laatste optie uitgevoerd.
+
+        vb:
+        const leeftijd = 10;
+        const type = 'admin';
+
+        if (leeftijd > 29 && type == 'admin') {
+            console.log('Hij is ouder dan 29 jaar en is een admin.');
+        } else if (leeftijd > 25) {
+            console.log('Hij is ouder dan 25 jaar en is een admin.');
+        } else {
+            console.log('Hij heeft niet de minimum leeftijd.');
+        }
+
+        --> console: Hij heeft niet de minimum leeftijd.
+
+        -> omdat alle if statements en else ifs false waren werd de else statement uitgevoerd.
+
+
+SWITCH CASE:
+    --> word gebruikt zoals een if statement, maar is makkelijker als je verschillende opties wilt laten testen.
+
+    vb:
+        const leeftijd = 20;
+
+        switch(leeftijd){
+            case 20:
+                console.log('Hij is 20 jaar oud.')
+                break;
+            case 21:
+                console.log('Hij is 21 jaar oud.')
+                break;
+
+        default:
+                console.log('Hij heeft niet de minimum leeftijd.')
+}
+
+        -> in the switch case zet je wat je wilt testen tussen haakjes.
+        -> dan voor elke situatie/case zetten dat je wilt testen.
+        -> de code eronder zetten en break eronder zodat het de andere niet doet, als hij één case heeft uitgevoerd.
+        -> default is voor als er geen ander is kunnen runnen en dat die algemeen iets aangeeft.

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!--
+    Het is nu goed dat we een kleine code hebben om te style in één code te gebruiken, maar bij bv 200 lijnen wordt dit te veel
+    Dus om een ander code voor alleen css te maken kan je gewoon deze linken met jou code.
+    met <link rel="stylesheet" href=".naamDocument">
+    Dus nu als je iets van css daar maakt, wordt dit toegepast in jou code.
+
+    metingen:
+    40px zijn pixels grote. EEN ABSOLUTE WAARDE
+    
+    REM = EEN RELATIEVE WAARDE
+    1rem is bv vermenigvuldigen met de grote dat van toepassing is.
+    bv 20px en  2rem word dan 40px.
+    Je mag bij de rem ook comma's gebruiken bv 2,5rem
+
+    pixels of px gaan het meest gebruikt worden, maar bij sommige gevallen gaat rem wel nodig zijn.
+
+    EM = EEN RELATIEVE WAARDE
+    em is er ook, die wordt meer gebruikt waar de titel in zit (de papa) DIV,
+    em gaat niet naar de basis van de html kijken.
+
+    HOOGTE = height
+    BREEDTE = width
+
+    PERCENT
+    als je bv 50% gebruikt voor de breedte ipv pixels dan gaat het 50% van de pagina's breedte nemen.
+
+    zoals je kan zien in style.css hebben we de divs onderverdeeld ik vader en zoon. De vader heeft bepaalde afmetingen
+    en de zoon neemt de afmetingen van de vader en past de nieuwe waarden er aan toe.
+    bv 50% height en 500px width voor de vader          zoon 50% height en 50% width
+    dus wat er gebeurd is dat de zoon 50% van de afmetingen gaat gebruiken van de div vader.
+
+
+
+    CSS RESET:
+    Een css code komt al met een default settings.
+    De margin is heeft al een beetje plaats waardoor je niet heel de pagina kunt kleuren bv.
+    dan moet je dit aanpassen aan heel het document met *{ margin: 0; } Dit word ook CSS RESET genoemd.
+    dan gaan deze weg.
+    
+    *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+    Dit is om alles te resetten, je kan meer resetten. Maar dit is meer dan genoeg.
+    *{} dit word gebruikt om iets te veranderen aan heel uw css code.
+-->
+
+</head>
+
+<body>
+    <div class="vader">
+        <div class="zoon">
+            zoon
+        </div>
+    </div>
+
+</body>
+
+</html>

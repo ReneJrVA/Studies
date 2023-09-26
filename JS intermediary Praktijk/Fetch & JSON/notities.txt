@@ -1,0 +1,95 @@
+FETCH:
+    => Natieve Methode, die een return gaaft van een promise -> om een http te maken
+
+    -   Http wordt gecreerd.
+    -   then en catch word gebruikt.
+    -   Dus het is met een verzoek / request van de HTTP, dat we gaan kunnen verzenden, ontvangen,
+        verwijderen, wijzigen van een gedetermineerde waarde.
+
+
+    -   Een gebruiker toevoegen.
+    -   Front end --> fetch --> http --> back end --> databank
+
+WERKWOORDEN HTTP:
+
+    -   GET     --> Wanneer een client een verzoek vraagt voor data.
+    -   POST    --> Wanneer een data wordt verzonden vanuit de client.
+    -   DELETE  --> Wanneer we iets specefiek iets wil verwijderen.
+    -   PATCH   --> Wanneer we iets groters willen updaten/wijzigen.
+    -   PUT     --> Wanneer we iets specefiek willen wijzigen.
+
+    
+        CRUD:
+
+            Create Read update delete
+                 => Zijn de werkwoorden van hierboven --> dus gaat een verzoek maken van HTTP
+
+
+ENDPOINT:
+
+    --> Het is eigenlijk gewoon een URL, zoals www. , .com
+
+    De verantwoordelijke voor het crieeren van endpoints en de naam geven aan de verantwoordelijkheid
+    van elke endpoint is de back end.
+
+    vbn:
+        =>  een endpoint voor het MAKEN van een gebruiker.
+        =>  Een endpoint voor het DELETEN van een gebruiker.
+        =>  Een endpoint voor het WIJZIGEN van een gebruiker.
+
+
+BACK END PUBLIC --> voor cripto
+
+https://api.coingecko.com/api/v3/exchange_rates
+
+
+HTTP:
+    4 typen parameters in een verzoek HTTP
+
+    1   Route params    -> andere manier om data te versturen. in de URL, niet in de body van de verzoek.
+    2   Query params    -> lijkt op route, maar anders -> einde van url -> ? betekend nu begin ik een query.
+    3   Body  params    -> voor de date die in de verzoek worden gezet
+    4   Header params   -> Om extra data te sturen in een verzoek.
+
+
+API:
+    => Application programming interface --> back end dat we mee werken.
+
+CORS:
+    => Uitleg komt nog.
+
+
+STATUS HTTP:
+    4 mogelijkheden:
+
+        -   Success             200 - 299
+        -   Redirect            300 - 399
+        -   Error at client     400 - 499
+        -   Error of server     500 - 599
+
+
+    
+JSON:
+-> JAVASCRIPT OBJECT NOTATION
+
+JSON is een formaat van oraginsatie van data
+    -> Het verschil van de JSON naar een normaal Object van javascript is dat de key van de object JSON
+       in de formaat string moet zijn.
+
+Het is normaaldat JSON gebruikt wordt als een extensie voor bestanden en ook voor configuraties.
+
+Maken van een object JSON:
+
+const obj = {
+    'name': 'Rene',
+    'age': 26
+}
+
+Methodes van JSON die vaak gebruikt worden:
+
+JSON.parse()        // Gaat een string van json naar een object van javascript getransformeerd.
+JSON.stringify()    //Gaat een object javascript en gaat dit transformeren naar een object JSON
+
+API'S om te gebruiken:
+
+https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/

@@ -1,0 +1,19 @@
+Strings:
+
+    We gaan het hebben over verschillende functies/tools je kunt gebruiken bij strings.
+
+    - .lenght       =       is om na te zien hoeveel characters er zijn in je string.
+    - .charAt(1)    =       controleren welke character op de postitie die je tussen haakjes hebt gezet.
+    - .toLowerCase  =       Om alle letters in kleine letters te zetten ipv met een hoofdletter.
+    - .toUpperCase  =       Om alle letters in hoofdletters te zetten ipv met kleine letters.
+    - .endsWith     =       Controleren of de laatste string hetzelfde is of niet tussen de haakjes. Het kan ook bv de laatste twee letters zijn. => true of false, zie script.
+    - .startsWith   =       Controle of het start met dezelfde string of eerste letters. => true or false
+    - .includes     =       Controle of de string die je aangeeft, effectief in de string zit. zo ja dan true. Ook gaat het true geven als een deel van de string klopt.
+    - .concat       =       Is om twee strings samen te voegen. (zonder spatie, zelf toevoegen)
+    - .substring    =       Is om de stuk van de string te nemen dat geeft als parameters.
+    - .slice        =       Hetzelfde als substring, enige verschil is dat je negatieve nummers kunt geven zoals -3, dan start hij vanachter de string.
+    - .padStart     =       Is om een string de aangegeven characters te maken en als je string niet genoeg heeft gaat het worden aangevuld aan het begin van de sting
+                            met wat je zelf kiest.
+    - .padEnd       =       Hetzelfde als padstart, maar nu word het aangevuld aan het einde van de string.
+    - .split        =       Is om een string in twee of meer delen te splitsen. Je zet waar je de string wilt splitsen en dan wordt he uitgebeeld als een array.
+    - .replace      =       Is om een character dat je wilt vervangen door een andere character.

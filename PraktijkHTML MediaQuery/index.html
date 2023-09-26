@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="mijnDiv">
+        <div class="blok">Gebruiker 1</div>
+        <div class="blok">Gebruiker 2</div>
+        <div class="blok">Gebruiker 3</div>
+        <div class="blok">Gebruiker 4</div>
+        <div class="blok">Gebruiker 5</div>
+        <div class="blok">Gebruiker 6</div>
+    </div>
+
+    <!-- 
+        Breakpoint:
+            Punt waar de site naar een andere design gaat van de site om de site om kleinere of grotere schermen te laten passen.
+
+        meest gebruikte:
+        480px voor kleine schermen
+        768px voor tablets, mag ook voor gsm
+        1280px voor pc scherm
+        sommige gebruiken 1024px
+
+        Media Query is om deze dingen voor pc, gsm te laten adapteren.
+
+        Om deze te maken doe je @media en je kan al een breaking point geven.
+        dan zeggen wat je anders wilt in de div in elke breaking point.
+
+        Dus elke keer dat je een breaking point voorbij gaat dan, kom gaat elke media query de code van de main div overiden.
+
+        bv:
+                            .mijnDiv {
+
+                                height: 100px;
+                                 width: 100px;
+                                 background-color: black;
+                            }
+
+                            @media (min-width:480px) {
+                                .mijnDiv {
+                                    background-color: red;
+                                }
+                            }
+
+                            @media (min-width:768px) {
+                                 .mijnDiv {
+                                    background-color: yellow;
+                                }
+                            }
+
+                            @media (min-width:1280px) {
+                                .mijnDiv {
+                                    background-color: green;
+                                }
+                            }
+
+        MOBILE FIRST:
+            
+           Tegenwoordig is de mobiele schermen als gsm,tablet de meest gebruikte manier om sites te bezoeken
+           waardoor dit goed is om te gebruiken en daar de focus op te leggen voor je naar de grotere schermen gaat.
+           
+           Het is gewoon dus eerst aan de scherm van een gsm denken en dan naar de rest toe werken.
+
+           in media query is het belangrijk om een mid-width te gebruiken, om zo die focus te maken met mobile first.
+
+           Je zou in max kunnen beginnen, maar dat focust op de grotere schermen eerst.
+           maar dan ga je alles andersom moeten maken.
+
+-->
+
+</body>
+
+</html>

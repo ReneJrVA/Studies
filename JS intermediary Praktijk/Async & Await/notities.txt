@@ -1,0 +1,3 @@
+ASYNC: sync met await voor de function om data op te halen van de back end.
+AWAIT:
+    => Gebruiken om te zeggen dat je wacht op een data

@@ -1,0 +1,38 @@
+Object:
+    -> reeks van informatie, die gevormd zijn door sleutels en waardes 
+    -> die methodes en eigenschappen 
+    -> waardes in functies en eigenschappen waardes in een andere vorm.
+
+    vb:
+        const Rene = {
+            completeName: 'Rene Junior Van Asch',
+            leeftijd: 22,
+        }
+
+    completeName -> sleutel
+    'Rene Junior Van Asch' -> waarde
+    -> met de komma kan je ze apart houden.
+
+    Anonieme functie:
+     kan gebruikt worden binnen een object.
+
+     bv:
+        const Rene = {
+            completeName: 'Rene Junior Van Asch',
+            leeftijd: 22,
+            showMessage: function(){
+                alert('Bericht')
+            }
+        }
+
+        -> Een anonieme functie heeft geen naam nodig zoals bij een gewone functie.
+        -> De sleutel van onze functie is alsof het de naam van functie is.
+
+    Om access te hebben van de methodes en eigenschappen, gebruiken we:
+    dot notation:
+        -> We gaan access krijgen door gewoon een punt te gebruiken.
+
+        vb:
+            console.log(Rene.showMessage());
+            -> door de punt na Rene kan je iets specifiek uitkiezen, en zal dit in de console.log getoont worden.
+            -> Dit kan gebruikt worden voor elke methode en functie in het object.

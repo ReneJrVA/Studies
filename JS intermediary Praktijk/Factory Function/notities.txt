@@ -1,0 +1,21 @@
+Factory function:
+   -> Functie die een object returned wanneer die uitgevoerd word.
+
+   Je kan in een arrow function bv 2 functies als return geven.
+   Als je dan één oproept dan word alleen die ene uitgevoerd en andersom.
+
+   bv: zie script
+   ->
+    
+    const factoryFunction = (naam) => {
+        return {
+            ingelogt: () => alert (`De gebruiker ${naam} is ingelogt.`),
+            uitgelogt: () => alert (`De gebruiker ${naam} is uitgelogt.`),
+        }
+    }
+
+        factoryFunction('Rene').uitgelogt();
+
+        --> De gebruiker Rene is uitgelogt.
+
+Dit word veel gebruikt voor complexe aplicaties dus het is belangrijk om dit te begrijpen.

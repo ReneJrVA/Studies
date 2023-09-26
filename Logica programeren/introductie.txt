@@ -1,0 +1,44 @@
+Logica programeren?
+    verzameling van technieken en kennis.
+    Instructies geven in een logische volgorde om een bepaalde resultaat te krijgen. 
+    Javascript
+
+Algoritme?
+    logische volgorde
+
+    vb:
+    - email, wachtwoord ingeven
+    - click op inloggen
+    - status van ofline naar 
+    - bericht tonen, welkom
+
+
+hardware en software
+
+hw: fysieke componenten
+sw: de progamma's, code die op de fysieke componenten werken.
+
+taal van de machine: verstaanbaar door de computer
+binaire(bits) 0 en 1.
+
+talen van lage niveau.
+    vb: Assembly.
+
+Talen van hoge niveau.
+    talen die verstaanbaar en makkelijker zijn voor de mensen.
+     vb: Javascript, python, c++, php ...
+
+
+-> onze machine verstaat geen talen van hoge niveaus
+-> we moeten onze code converteren naar een manier dat de machine het kan verstaan.
+-> compilatie en interpretatie
+
+compileren -> in één of meer bestanden dat de machine begrijpt -> deze gecompileerde bestand is opgeslagen -> worden uitgevoerd.
+compilator is de programma die het werk doet.
+
+C
+
+interpretatie -> vertaling (interpretatie) -> uitvoeren.
+interpreter.
+
+Javascript

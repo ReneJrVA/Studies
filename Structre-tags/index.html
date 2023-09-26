@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structred Tags</title>
+    <style>
+        .header1 {
+            background-color: green;
+        }
+
+        .header2 {
+            background-color: blue;
+        }
+
+        #headerG {
+            height: 500px;
+
+        }
+
+        #headerK {
+            width: 100px;
+        }
+
+
+
+        /* header {
+            background-color: blueviolet;
+        } */
+    </style>
+    <!-- 
+        in style is de plaats waar je in het begin css kunt gebruiken,
+    later is het beter om css in een andere document te plaatsen zodat je code beter georganiseerd is.
+    header { } is om te kunnen stylen in de header zelf.
+    HET IS NIET DE BESTE OPTIE; omdat als je meer dan 1 header hebt dan gaat het op alle headers toepassen. 
+    De beste manier is om classes te gebruiken. zodat je zelf kunt kiezen welke header je wilt stylen.
+    Om een class op te roepen, moet je .naam doen.
+    Zoals je kan zien, kan je nu de headers apart stylen, omdat je classes hebt gebruikt.
+    Je kan als laast ook nog een ID gebruiken om dit te doen en dan oproepen met #naam
+-->
+
+
+    <script>
+        alert("Dag, dit is een js code")
+    </script>
+    <!-- script is om een css code erin te maken
+    alert is om een bericht te geven aan de gebruiker voor dat ze de pagina binnen gaan. -->
+
+    <header id="headerG" class="header1">
+        <nav>
+            <ul>
+                <a href="home.html" target="_blank">
+                    <li>Home</li>
+                </a>
+                <a href="https://www.instagram.com/rene.jr.va/" target="_blank">
+                    <li>Contact</li>
+                </a>
+                <li>Foto's</li>
+            </ul>
+            <!-- a is een anker tag, om zo te kunnen navigeren op de site, of voor een link te maken naar een andere site -->
+            <!-- als je wilt dat je link opent in een nieuwe tab, dan moet he target blank gebruiken -->
+            <!-- als je alt en pijltje omhoog drukt dan gaan de lijn 1 omhoog. -->
+        </nav>
+    </header>
+
+
+    <header id="headerK" class="header2">
+        <nav>
+            <ul>
+                <a href="home.html" target="_blank">
+                    <li>Home</li>
+                </a>
+                <a href="https://www.instagram.com/rene.jr.va/" target="_blank">
+                    <li>Contact</li>
+                </a>
+                <li>Foto's</li>
+            </ul>
+
+        </nav>
+    </header>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

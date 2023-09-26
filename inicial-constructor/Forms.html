@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Forms zijn formulieren waar je info kunt ingeven en opslaan en inputs kunt geven om bv in te loggen.-->
+    <form action="./Forms.html"> <!--Als je de form maakt kan je kiezen waar de gegevens opgeslagen worden door ACTION, in dit geval Forms.html-->
+
+
+    <label for="email">Email</label> 
+    <input type="email" style="display: block;" id="email" name="email" placeholder="Geef een geldig email-adres" />
+
+    <label for="password">Password</label>
+    <input type="password"style="display: block;" id="password" name="password" placeholder="Geef uw wachtwoord in"/>
+
+    <label for="text">Tekst</label>
+    <input type="text" name="text" id="text" style="display: block;"/>
+
+    <label for="checkbox">Checkbox</label>
+    <input type="checkbox" name="checkbox" id="checkbox" style="display: block;"/>
+
+    <label for="radio">Man</label>
+    <input type="radio" style="display: block;" name="seks" id="radio" value="Man">
+
+    <label for="radio">Vrouw</label>
+    <input type="radio" style="display: block;" name="seks" id="radio" value="Vrouw">
+
+    <label for="radio">Anders</label>
+    <input type="radio" style="display: block;" name="seks" id="radio" value="Anders">
+
+    <label for="range">Tevredenheid</label>
+    <input type="range" style="display: block;" id="range" name="range">
+
+    <label for="number">Nummers</label>
+    <input type="number" name="number" id="number" style="display: block;">
+
+    <label for="file">Document</label>
+    <input type="file" name="file" id="file" style="display: block;">
+
+    <label for="date">Geboortedatum</label>
+    <input type="date" name="date" id="date" style="display: block;">
+
+    <select name="dag van de week" style="display: block;" id="">
+        <option value="Zondag">Zondag</option>
+        <option value="Maandag">Maandag</option>
+        <option value="Dinsdag">Dinsdag</option>
+        <option value="Woensdag">Woensdag</option>
+        <option value="Donderdag">Donderdag</option>
+        <option value="Vrijdag">Vrijdag</option>
+        <option value="Zaterdag">Zaterdag</option>
+    </select>
+
+    <textarea name="bericht" id="bericht" style="font-family: 'Kdam Thmor Pro', sans-serif;" cols="30" rows="10"></textarea>
+
+
+
+    <button>Verzenden</button>
+
+
+<!--Lables      gebruiken we hier om een titel te geven aan onze input
+PlACEHOLDER     is de tekst dat in de input vakje staat geschreven
+TYPE            is belangrijk omdat deze aantoont wat voor type antwoord je wilt krijgen. Nu hebben we de type email, 
+                als het geen email is gaat het zeggen dat het geen geldig email is.
+Style block     is gewoon om de inputs onder elkaar te zetten, Name word gebruikt om iets op te slaan bv email
+Als je DISABLED in tussen de haakjes van iput zet, word die gewoon stop gezet.
+TYPE PASSWORD   maakt dat wat je intypt niet te zien is, meer niet.
+TYPE TEXT       is wat je maar wilt letters, nummers, symbolen.
+CHECKBOX        is gewoon een vierkantje dat je kan aanduiden bv voor termen akkoord gaan van een site.
+RADIO           is om vershillende opties geven, maar er mag er maar 1 aangeduid worden. BV man, vrouw of anders.
+                Dat komt omdat het maar 1 naam heeft voor alle 3 dus er kan maar 1 value opgeslagen worden
+RANGE           is om een sleepbalk te plaatsen voor bv de tevredenheid van klanten te vragen.
+                Hoe hoger ze schuiven hoe beter, minder is minder :p
+NUMBER          is een input dat alleen nummers aanvaard. Letters gaan zelfs niet lukken.
+FILE            is om een document op te vragen om op te sturen bv een pdf dat je wilt uploaden.
+DATE            is om een datum op te vragen, bv voor je geboortedatum.
+SELECT          is een manier om een keuze te kiezen in een keuzebalk.
+TEXTAREA        is om een tekstbalk maken voor bv een bericht te sturen zoals een email.
+
+-->
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
