@@ -1,0 +1,9 @@
+
+
+Typescript:
+
+    =>  lijkt op javascript met superkrachten.
+        Je werkt hetzelfde, maar nu kan je de objecten types geven zoals number en string
+
+    =>  Is eigelijk om te helpen om minder fouten te maken en om veel code beter te organiseren
+        en te helpen.
