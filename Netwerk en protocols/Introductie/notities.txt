@@ -1,0 +1,31 @@
+Wat is een NETWERK?
+=>  Het is een connectie tussen apparaten (pc, gsm) die informatie en bronnen met elkaar deelt.
+
+
+Wat is een PROTOCOL?
+=> Het is een regel van de connectie, een afwisseling van informatie. Zonder een protocol zou de pc van een netwerk niet
+    met elkaar kunnen communiceren.
+
+
+Hoe werkt deze conectie tussen apparaten?
+
+=> het makkelijkste is via een kabel die met elkaar verbonden zijn. Maar limiet is klein, vaak maar met twee apparaten.
+
+=> Hub en Switches zijn aparaten die één of meer pcs met elkaar verbind via éénzelfde netwerk.
+
+
+Hub:
+    =>      Een hub word minder gebruikt dan een switch, omdat een hub niet kan zien welke aparaten er verbonden zijn aan
+            de netwerk.
+
+    =>      Als je een bericht van bv pc1 naar pc5 wilt sturen kan die dat niet, dus die gaat die bericht naar alle
+            pcs sturen. Wat niet veilig is (broadcast).
+            In die werking van het versturen naar pc5, gaat die aan elke pc vragen ben jij pc 5? tot hij pc5
+            gevonden heeft?
+
+
+
+
+Switch:
+    =>      Een switch wordt meer gebruikt, omdat die weet wie welke apparaat is.
+    =>      
