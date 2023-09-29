@@ -1,0 +1,9 @@
+
+INTERFACES:
+
+=>  pure typescript kan niet gelezen worden door een browser, waardoor we compilatoren gaan
+    gebruiken zodat dit wel kan. => naar javascript.
+
+=> een interface kan gebruikt worden om een object zijn types te bepalen. zie lijn 7 tot 11
+=> Je kan een interface met een andere inteface laten samenwerken om een object bv meer
+    info te geven. zie lijn 1 tot 4
