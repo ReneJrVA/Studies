@@ -1,0 +1,26 @@
+
+Types:
+
+-   Je kan een type bepalen door twee manieren, door een const te maken en de type aan te
+    geven of door de naam te geven en zeggen welke type. zie Script.ts 2 en 4
+
+=>  boolean                 true/false
+=>  string                  'string'
+=>  number                  1
+=>  array                   number[] => bepaling van type array, in dit geval van nummers.
+                            andere manier: Array<string> 
+
+=>  tuple                   om een array met verschillende types te maken. zie script 12  
+
+=>  null en undefined
+=>  object                  een object met verschillende items met verschillende types, worden
+                            zoals in script gedaan zie lijn 14 tot 23.
+
+=> enum                     Is om een bepaalde string dat we vaak gaan gebruiken, beter te
+                            organiseren. Ook om minder fouten te maken en te vermijden. zie 
+                            lijn 25 tot 31
+
+=> any                      Is eigenlijk alle types negeren. BEST DEZE NIET GEBRUIKEN.
+                            Omdat er zo fouten gaan gebeuren. --> typescript geen nut dan.
+
+=> void                     om functies te typeren die geen return hebben.
