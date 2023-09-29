@@ -1,0 +1,28 @@
+
+UNION:
+=>  is om aan te geven dat een bepaalde data een type kan zijn of een andere
+
+zie script lijn 15 - 18
+
+dan kan je zien dat je twee interfaces gebruikt die gebruikt kan worden in één object door
+UNION toe te passen.
+
+Dit kan ook simpel uitgevoerd worden door bv twee opties van types te geven aan een const.
+zie script lijn 20.
+
+
+
+
+
+ALIASES:
+
+Is een andere manier om hetzelfde te doen als een union, maar simpel.
+zie lijn 36.
+
+Dan moet je bij je object ook geen twee opties geven, maar gewoon de naam van de type dat je
+hebt gemaakt in lijn 36. zie 36 - 44.
+
+Als je niet alle items in de object zet gaat een fout geven => xat je kan doen is 
+die ene item dat je niet echt gaat gebruiken een ? achter te zetten. => betekend dat het
+niet moet gebruikt worden als het niet in de object staat, maar mag ook in de object staan.
+zie lijn 33.
