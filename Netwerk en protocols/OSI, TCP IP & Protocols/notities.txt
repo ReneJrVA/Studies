@@ -1,0 +1,51 @@
+
+OSI:
+    
+    7 lagen:
+
+    1       Physical layer
+    2       Data link layer
+    3       Network layer
+    4       Transport layer
+    5       Session layer
+    6       Presentation layer
+    7       Application layer
+
+
+    1   fysieke conectie met kabels bv fiber
+
+    2   kijkt de fouten die in de vorige layer gebeuren en verbeteren, hij kijkt na wie er data moet ontvangen
+        en deze doorgeven.
+
+    3   Die gaat bapalen naar waar alles moet aankomen bv naar welke ip-adres.
+
+    4   Houd zich bezig met het transport en het organiseren van die data.
+        TCP is de belangrijkste protocol van de transport.
+
+    5   Is de layer waar de connectie tussen de pcs worden waargemaakt met verschillende applicaties.
+        Die daardoor gesyncroniseerd worden.
+
+    6   De data van de vorige layer worden vertaald / geconverteerd naar een formaat dat gebruikt en
+        getransporteerd kan worden naar de volgende layer.
+
+    7   Is de layer waar je echt kan zien waar de data gebruikt wordt in de applicaties die we aan het gebruiken zijn.
+        HTTP is de protocol die we het meest gaan zien als webdeveloper.
+
+    
+
+    TCP IP:
+
+        4 lagen:
+
+        1       Network interface
+        2       Internet
+        3       Transport
+        4       Application
+
+        1   Neemt de Physical en de data link layer en doet het in network interface
+
+        2   Network word internet layer
+
+        3   Transport blijft transport
+
+        4   Application, Session en Presentation worden Application layer
