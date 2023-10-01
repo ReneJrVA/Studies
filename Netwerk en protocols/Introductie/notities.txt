@@ -28,4 +28,24 @@ Hub:
 
 Switch:
     =>      Een switch wordt meer gebruikt, omdat die weet wie welke apparaat is.
-    =>      
+            Als je bv dan een bericht van pc 1 naar pc5 wilt sturen gaat dat perfect.
+
+
+
+Router:
+
+    =>      Is de verantwoordelijke om verschillende switchen of hubs met elkaar te verbinden.
+
+    =>      Hij zorgt ervoor dat elke apparaat een eigen ip-adres krijgt.
+
+    =>      Ip = Internet protocol => is eigenlijk de nummer dat je krijgt op die netwerk.
+
+
+
+Wat is de grootste/bekendste netwerk van pcs dat er bestaat?
+
+    =>  Het internet => Het is eigenlijk de connectie tussen duizenden aparaten die verbonden zijn op een netwerk.
+
+    =>  Door zoals: een kabel, wifi, 4G enz.
+
+    
