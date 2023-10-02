@@ -1,5 +1,4 @@
 
-
 DNS: Is de systeem die comuniceerd met de domain en server, om te weten welke site je wilt
      bezoeken, maar er ook voor zorgen dat je erop geraakt.
 
@@ -7,10 +6,10 @@ Domain: De plaats van een bedrijf die een site heeft. bv youtube.com
 
 Server: De plaats waar de site blijft werken.
 
-
 Datacenter:
     Is een grote plaats met veel machines die door een bedrijf wordt georganiseerd en zo services geeft aan anderen,
     voor een bepaalde prijs. Dit is om te voorkomen dat je voor je eigen site niet je pc 24/24 moet laten opstaan,
     om de server te laten draaien en alle data bij te houden.
 
     Een cloud bv is ook een datacenter, dit is gewoon één van de services dat zo'n datacenters geven.
+
