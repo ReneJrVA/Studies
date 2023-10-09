@@ -1,5 +1,14 @@
-SSR:
+SSR: Server Side Rendering
+
+    -   Is er om het probleem van SPA op te lossen
+    -   Het inverteerd het proces van het renderen van een pagina => makkelijker voor SEO
+    -   Het zorgt ervoor dat het herladen van de applicaties beter gaat.
+    -   Een framework van SSR is NEXT.js (lijkt erg op react).
 
 
+SSG: Static Site Generation
 
-SSG:
+    -   Formaat van renderen, dat de pagina van de applicaitie rendert en tijdens de built van de applicatie.
+    -   Het gaat HTML paginas maken en het propbleem van de SEO ook oplost.
+    -   SSG is beter dan SSR omdat het geen paginas moet renderen door een bepaalde opdracht van een server. Omdat alles
+        al gerenderd is in de built.
