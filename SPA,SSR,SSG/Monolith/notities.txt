@@ -1,0 +1,20 @@
+=> Vandaag is het normaal om twee applicaties te zien die front-end doen en de andere back-end. Dit door HTTP.
+
+=> Ervoor gebeurde dit door een monolith.
+
+Monolith:
+    -   Een systeem die front en back-end samen in één applicatie heeft.
+    -   Dit is vandaag de dag niet meer echt de manier dat het word gedaan.
+    -   Nadeel: Dat je niet de operaties voor verschillende applicaties kunt gebruiken.
+        -> bv bij een login voor een website en een app voor de smartphone, kan dit niet samen werken.
+    -   Nadeel: Dat je niet voor elk verschillende app iets kunt aanpassen. Als je iets wilt aanpassen aan de back-end
+        Dan moet je alles veranderen. => meer kansen op bugs en fouten.
+
+Bij de werking van aparte apps voor front en back, heb je dit probleem niet, van als je font aanpast dat back een probleem
+kan hebben.
+
+Bij de werking van aparte applicaties voor front en back-en is het mogelijk om ineens een versie voor de smartphone
+te maken en dezelfde front end functies te gebruiken om in te loggen bv. Wat vele sneller is en minder werk maakt.
+
+=>  Vandaag is het best dat er een applicatie is voor de font-end en een ander voor de back-end.
+    En zo deze twee samen te laten werken door de protocol HTTP.
