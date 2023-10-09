@@ -1,6 +1,26 @@
 SPA:
     -   Single Page Application
-    -   
+    -   In HTML waar een framework van javascript zoals React die al het werk doet van de tagss
+        en de document in 1 document van HTML gaat maken.
+
+
+    Voordelen:
+        =>  Renderen van de client
+        =>  Het niet herhalen van code, omdat er blokken code herhaalt kunnen worden meer dan 1 keer.
+        =>  Een snellere constructie van een applicatie front-end en die professioneel is.
+
+
+    Nadelen:
+        =>  Het grootste nadeel is de moeilijkheid van de apps SPA moeilijk te vinden zijn door zoek motoren -> SEO
+            -> Search Engine Optimization.
 
 REACT:
     -   Framework van SPA die word gemaakt met javascript.
+    -   Taggs ophalen van binnenuit en andere ingeven.
+
+
+Voorbeelden SPA:
+    -   React
+    -   Vue.js
+
+    Er zijn veel meer, maar deze twee zijn de bekenste.
