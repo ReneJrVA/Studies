@@ -1,0 +1,6 @@
+SPA:
+    -   Single Page Application
+    -   
+
+REACT:
+    -   Framework van SPA die word gemaakt met javascript.
