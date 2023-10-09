@@ -1,0 +1,17 @@
+FRONT-END:
+    - Is het visuele deel dat in contact komt met de gebruiker
+    - Word ook client genoemd.
+    - Belangrijk voor frontend is dat we erg goed met Css,HTML en javascript leren werken.
+    - Leren hoe we voor elke aparaat de juiste weergave geven van de client
+    - Als frontend ga je met UX en UI designers werken. Omdat je developed en zij de design aan de site of app geven(layout).
+      Figma wordt vaak gebruikt voor een design.
+
+Nodejs wat we nog gaan leren helpt ervoor dat we met js ook als backend kunnen gebruiken.
+
+
+BACK-END:
+    - De logica van het systeem in het algemeen, zoals inloggen, een nieuwe gebruiker maken, een database gebruiken, etc.
+    - De Front-end gaat samenwerken met de back-end om bv in te loggen, zijn de gegevens van de gebruiker correct?
+      Is het wachtwoord juist en het email adres? Dit gaat de back-end controleren en terug sturen naar de front-end.
+    - Dit wordt allemaal gedaan door het protocol HTTP.
+    
