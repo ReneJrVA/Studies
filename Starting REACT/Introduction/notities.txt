@@ -1,0 +1,10 @@
+Start React:
+
+FRAMEWORK:
+    =>  Tool van werk
+    =>  Framework SPA
+
+REACT:
+    =>  Framework van javascript
+
+webpack & babel
