@@ -14,5 +14,8 @@ NODE:
     =>  javascript runt normaal gezien alleen via een browser, engine --> verantwoordelijk voor het begrijpen en runnung
         van javascript.
     =>  Nodejs op site downloaden best lts gebruiken -> meest stabel
+    =>  NPM (node package manager) -> instaleren en manipuleren van packages in je machine
+        -> packages -> externe codes die al een functionaal zijn aan ons geven.
+
 
 Chrome -> V8 (engine van chrome)
