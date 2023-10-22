@@ -9,3 +9,5 @@ REACT:
 
 webpack & babel
 
+NODE:
+    =>  Run javascript op onze machine
