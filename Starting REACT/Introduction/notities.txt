@@ -20,7 +20,7 @@ NODE:
 
     =>  NPX -> create-react-app -> 
 
-    help me
+    => Firstapp made with nodejs in map firstapp
 
 
 Chrome -> V8 (engine van chrome)
