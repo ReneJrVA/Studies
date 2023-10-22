@@ -20,5 +20,7 @@ NODE:
 
     =>  NPX -> create-react-app -> 
 
+    help me
+
 
 Chrome -> V8 (engine van chrome)
