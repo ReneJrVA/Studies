@@ -9,6 +9,10 @@ REACT:
 
 webpack & babel
 
+
+Chrome -> V8 (engine van chrome)
+
+
 NODE:
     =>  Run javascript op onze machine
     =>  javascript runt normaal gezien alleen via een browser, engine --> verantwoordelijk voor het begrijpen en runnung
@@ -40,4 +44,5 @@ React-scripts:
     =>  Om deze te gebruiken in de terminal dat zet je: npm start of voor de andere npm run build
 
 
-Chrome -> V8 (engine van chrome)
+Hot reload => reloading de pagina erg snel, direct als er iets veranderd is.
+
