@@ -1,15 +1,20 @@
 WEBPACK:
+https://webpack.js.org
 
 
+Welke functies heeft een webpack?
 
-
-
-
-
-
+1   Groepeerd de code -> bundle
+2   Helpt bij de verdeling van de code in verschillende bestanden.
+3   Werkt samen met de NPM in de import van code van onze externe packages.
 
 
 
 BABEL:
+https://babeljs.io
 
 
+Welke functies heeft babel?
+
+1   Transformeert de nieuwe code js in een oude code. => Dit is goed voor meer opties van browsers (niet alle browsers werken met nieuwe js)
+2   Transformeert de JSX in functies react
