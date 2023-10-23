@@ -30,5 +30,14 @@ package.json        =>  heeft verschillende functies, maar de belangrijkste is o
                         geinstaleerd zijn.
                         Ook is het verantwoordelijk voor de opslag van de react-script
 
+React-scripts:
+
+    -   Start
+    -   Build
+    -   Test
+    -   Eject
+
+    =>  Om deze te gebruiken in de terminal dat zet je: npm start of voor de andere npm run build
+
 
 Chrome -> V8 (engine van chrome)
