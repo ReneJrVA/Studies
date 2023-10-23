@@ -23,4 +23,12 @@ NODE:
     => Firstapp made with nodejs in map firstapp
 
 
+
+package-lock.json   =>  weergeven van de versie van elke package die geinstaleerd is in de project
+
+package.json        =>  heeft verschillende functies, maar de belangrijkste is ook weergeven welke packages er
+                        geinstaleerd zijn.
+                        Ook is het verantwoordelijk voor de opslag van de react-script
+
+
 Chrome -> V8 (engine van chrome)
