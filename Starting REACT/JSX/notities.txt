@@ -1,0 +1,22 @@
+JSX:
+
+Is makkelijker, omdat je gwn htlm kunt gebruiken, waardoor je niet alle react functies moet maken
+
+=>  camelCase wordt hier toegpast -> eerste woord kleine letters, volgende woord Hoofdletter.
+
+=> Classes worden in JSX ipv class, className genoemd.
+
+
+
+=>  Je kan alleen JSX maken in de return.
+=>  Boven de return kan je gwn js schrijven.
+=>  In de return mag je ook maar 1 element hebben, want anders werkt het niet.
+    -> dus je mag een div in de main div doen en span enz. Maar vanaf je een andere div buiten de main one doet -> kapot
+
+
+React Fragment:
+
+    => Om toch meerdere elementen te kunnen maken in de JSX.
+
+    door eerst <React.Fragment> </React.Fragment> te openen.
+    => om het nog makkelijker te maken kan je gewoon <> </> en gaat het ook werken.
