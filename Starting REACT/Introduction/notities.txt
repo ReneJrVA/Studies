@@ -10,7 +10,10 @@ REACT:
 webpack & babel
 
 
+
 Chrome -> V8 (engine van chrome)
+
+
 
 
 NODE:
