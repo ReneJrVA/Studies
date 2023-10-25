@@ -16,7 +16,8 @@ Is makkelijker, omdat je gwn htlm kunt gebruiken, waardoor je niet alle react fu
     -> dus je mag een div in de main div doen en span enz. Maar vanaf je een andere div buiten de main one doet -> kapot
 
 
-
+=>  Door JSX / react kunnen we htlm code en js code in één document steken waardoor we complexere dingen kunnen maken die
+    makkelijker zijn om te maken.
 
 
 React Fragment:
