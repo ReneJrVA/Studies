@@ -1,0 +1,6 @@
+Components:
+    =>  Een manier om de code in verschillende stukken te maken, om de code beter te organiseren.
+    
+    Types:
+    1   Functionele Component =>    Die gemaakt is uit functions
+    2   
