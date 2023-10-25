@@ -2,5 +2,11 @@ Components:
     =>  Een manier om de code in verschillende stukken te maken, om de code beter te organiseren.
     
     Types:
-    1   Functionele Component =>    Die gemaakt is uit functions
-    2   
+    1   Functionele Component =>    Die gemaakt is uit functions (meest moderne)
+    2   Classes Component     =>    Gemaakt uit classes (Oud, wordt minder gebruikt.)
+
+
+    Hoe één maken?
+
+        =>  in src folder een nieuwe folder met naam components, daarin kan je een file maken
+            voor een button bv en dan daar de js maken voor de button en opslaan. zie button.js
