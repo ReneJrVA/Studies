@@ -10,3 +10,5 @@ Components:
 
         =>  in src folder een nieuwe folder met naam components, daarin kan je een file maken
             voor een button bv en dan daar de js maken voor de button en opslaan. zie button.js
+
+        =>  Beter een folder maken voor elke Component, omdat dit beter georganiseerd is.
