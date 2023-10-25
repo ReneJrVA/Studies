@@ -26,3 +26,64 @@ React Fragment:
 
     door eerst <React.Fragment> </React.Fragment> te openen.
     => om het nog makkelijker te maken kan je gewoon <> </> en gaat het ook werken.
+
+
+
+    react code:
+
+    import logo from './logo.svg';
+import './App.css';
+import React from 'react';
+
+function App() {
+  const nummer = 29
+  const lijst = [
+    { naam: 'Rene', student: true },
+    { naam: 'Junior', student: true },
+    { naam: 'Lele', student: false },
+    { naam: 'Sarah', student: false },
+  ]
+
+  function returnName() {
+    if (nummer < 30) return 'René'
+    if (nummer > 30) return 'Junior'
+    return 'Er is geen naam'
+  }
+
+  return (
+    <>
+      <div className="App">
+        <header className="App-header">
+          <div>{lijst.map((student) => (
+            <>
+              <div>{student.naam}</div>
+              <div>
+                Student:
+                <span style={student.student ? { color: 'green' } : { color: 'red' }}>
+                  {student.student ? 'Ja' : 'Nee'}
+                </span>
+              </div>
+            </>
+          ))}
+          </div>
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Rene
+          </a>
+          <div className="test">test</div>
+        </header>
+      </div>
+    </>
+
+  );
+}
+
+export default App;
