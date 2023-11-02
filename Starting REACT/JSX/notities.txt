@@ -29,6 +29,7 @@ React Fragment:
 
 
 
+
     react code:
 
     import logo from './logo.svg';
@@ -49,6 +50,7 @@ function App() {
     if (nummer > 30) return 'Junior'
     return 'Er is geen naam'
   }
+
 
   return (
     <>
