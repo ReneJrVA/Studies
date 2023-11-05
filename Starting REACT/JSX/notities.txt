@@ -8,8 +8,6 @@ Is makkelijker, omdat je gwn htlm kunt gebruiken, waardoor je niet alle react fu
 
 
 
-
-
 =>  Je kan alleen JSX maken in de return.
 =>  Boven de return kan je gwn js schrijven.
 =>  In de return mag je ook maar 1 element hebben, want anders werkt het niet.
@@ -26,9 +24,6 @@ React Fragment:
 
     door eerst <React.Fragment> </React.Fragment> te openen.
     => om het nog makkelijker te maken kan je gewoon <> </> en gaat het ook werken.
-
-
-
 
 
 
