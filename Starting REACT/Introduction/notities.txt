@@ -22,10 +22,10 @@ NODE:
         van javascript.
     =>  Nodejs op site downloaden best lts gebruiken -> meest stabel
 
-    =>  NPM (node package manager) -> instaleren en manipuleren van packages in je machine
+    =>  NPM (node package manager) -> installeren en manipuleren van packages in je machine
         -> packages -> externe codes die al een functie aan ons geven.
 
-    =>  NPX -> create-react-app ->  
+    =>  NPX -> create-react-app ->   
 
     => Firstapp made with nodejs in map firstapp
 
