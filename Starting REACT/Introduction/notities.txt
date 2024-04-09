@@ -18,7 +18,7 @@ Chrome -> V8 (engine van chrome)
 
 NODE:
     =>  Run javascript op onze machine
-    =>  javascript runt normaal gezien alleen via een browser, engine --> verantwoordelijk voor het begrijpen en runnung
+    =>  javascript runt normaal gezien alleen via een browser, engine --> verantwoordelijk voor het begrijpen en running
         van javascript.
     =>  Nodejs op site downloaden best lts gebruiken -> meest stabel
 
